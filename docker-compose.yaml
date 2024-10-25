@@ -1,0 +1,41 @@
+version: '3.0'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: MYSQL_ROOT_PASSWORD
+      MYSQL_DATABASE: Learning_DB
+      MYSQL_USER: thitipun
+      MYSQL_PASSWORD: 15945652Th
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin_container
+    restart: always
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      TZ: Asia/Bangkok
+    ports:
+      - "8080:80"
+    depends_on:
+      - mysql
+
+  web:
+    build: .
+    ports:
+      - "8081:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - mysql
+
+volumes:
+  mysql_data:
