@@ -13,7 +13,7 @@ include("Connection/Conn.php");
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <title>Dentistry PICC</title>
+  <title> </title>
 </head>
 
 <body>
@@ -42,7 +42,7 @@ include("Connection/Conn.php");
           </li>
         </ul>
         <form class="d-flex text-center align-items-center">
-          <a href="Login.php" class="px-4 nav-link">ยินดีต้อนรับ:&nbsp;
+          <a href="index.php?option=From_update_user" class="px-4 nav-link">ยินดีต้อนรับ:&nbsp;
             <?php echo $firstname ?>
           </a>
           <a href="Logout.php" class="btn btn-danger">ออกจากระบบ</a>
