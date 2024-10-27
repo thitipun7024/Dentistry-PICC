@@ -19,7 +19,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-7 mb-5 d-flex justify-content-center">
-                    <img src="https://img.freepik.com/free-vector/dentist-consultation-flat-background_23-2148116204.jpg?t=st=1729671014~exp=1729674614~hmac=f64c88abdd05c78f00b1eaadfacaef2ed621552946625d4aa655f99d2e10717f&w=826" width="70%" alt="Dental Consultation">
+                    <img src="img/2247870.jpg" width="70%" alt="Dental Consultation">
                 </div>
             </div>
         </div>

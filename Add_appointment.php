@@ -25,7 +25,7 @@ if ($date == "" || $time == "" || $detail == "") {
         $result2 = mysqli_query($conn, $sql2);
 
         echo "<script>";
-        echo "alert(\"นัดหมายสำเร็จ\");";
+        echo "alert(\" นัดหมายสำเร็จ \");";
         echo "window.location.href='index.php?option=Appointment'";
         echo "</script>";
     }

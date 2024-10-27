@@ -8,6 +8,7 @@ $id = $_SESSION['id'];
 $sql = "SELECT * FROM tbl_appointment INNER JOIN tbl_user ON tbl_appointment.id_user = tbl_user.id_user WHERE tbl_appointment.id_user = '$id'";
 $query = mysqli_query($conn, $sql);
 ?>
+
 <h1 class="justify-content-centen text-center">การนัดหมายของคุณ</h1>
 
 <div class="container justify-content-centen text-center py-5">

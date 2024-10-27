@@ -23,7 +23,7 @@ if($num > 0){
     $result2 = mysqli_query($conn, $sql2);
    
     echo "<script>";
-    echo "alert(\"register success\");";
+    echo "alert(\" สมัครสมาชิกสำเร็จ \");";
     echo "window.location.href='Login.php'";
     echo "</script>";
 }
