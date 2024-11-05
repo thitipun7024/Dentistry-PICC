@@ -18,7 +18,7 @@
                 <form action="Checklogin.php" method="post" enctype="multipart/form-data">
                     <div class="card bg-white border-0 shadow">
                         <div class="card-body py-3 text-center p-4">
-                            <h2 class="fw-bold mb-9 text-uppercase">เข้าสู่ระบบจองคิวทำฟัน</h2>
+                            <h2 class="fw-bold mb-9 text-uppercase">เข้าสู่ระบบ</h2>
                             <div class="mb-4"></div>
 
                             <div class="form-outline form-white mb-4">

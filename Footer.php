@@ -1,5 +1,5 @@
 <?php 
-include("COnnection/Conn.php");
+include("Connection/Conn.php");
 
 $sql = "SELECT * FROM tbl_count";
 $query = mysqli_query($conn, $sql);

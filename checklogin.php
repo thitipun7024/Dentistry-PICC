@@ -22,7 +22,9 @@ if($username == "" && $password = ""){
             if( $_SESSION['role'] == 1){
                 header("Location: index.php");
             } else if($_SESSION['role'] == 2){
-                header("Location: admin/index.php");
+                header("Location: Admin/index.php");
+            } else {
+                header("Location: index.php");
             }
     } else{
         echo "<script>";
